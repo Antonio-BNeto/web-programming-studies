@@ -1,0 +1,1 @@
+This is a small project where I started using just HTMl
