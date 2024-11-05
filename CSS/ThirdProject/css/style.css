@@ -51,12 +51,12 @@ a:hover {
     text-decoration: underline;
 }
 
-#header a:link, #header a:visited {
+.header a:link, .header a:visited {
     color: #fff;
     padding: 8px 12px;
 }
 
-#header a:hover {
+.header a:hover {
     color: #f7b600;
     background: white;
     text-decoration: none;
@@ -66,23 +66,23 @@ a:hover {
 ------- LAYOUT -------
 */
 
-#header {
+.header {
     background: #f7b600;
     padding: 15px;
     text-align: center;
 }
 
-#logo, #menu {
+.logo, .menu {
     padding: 10px;
 }
 
-#main {
+.main {
     width:  920px;
     margin: 0px auto;
     padding: 20px;
 }
 
-#posts {
+.posts {
     width: 660px;
     float: left;
 }
@@ -93,7 +93,7 @@ a:hover {
     background: white; 
 }
 
-#sideMenu {
+.sideMenu {
     width: 240px;
     float: right;
 }
@@ -115,7 +115,7 @@ a:hover {
     padding: 5px;
 }
 
-#baseboard {
+.baseboard {
     clear: both;
     text-align: center;
     padding: 15px;
