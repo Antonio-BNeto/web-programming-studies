@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - breakpoints</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap css-->
+    <link href="bootstrap/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  </head>
+  <body style="margin-bottom: 200px; width: 600px; margin: 0 auto;border: 1px solid ;">
+    
+
+    <!-- Botões
+    formatação padrão: btn
+    formatações especificas:
+      btn-primary, btn-secondary, btn-success, btn-info,
+      btn-warning, btn-danger, btn-light, btn-dark, btn-link 
+    -->
+
+    <h3>Botões</h3>
+    <button class="btn btn-dark" type="button">Clique</button>
+
+    <h3>Botões com diferentes tags</h3>
+    <a class="btn btn-info" href="#">Link</a>
+    <button class="btn btn-primary" type="submit">Submit</button>
+    <input class="btn btn-primary" type="button" value="Button">
+    <input class="btn btn-primary" type="submit" value="Input Submit">
+    <input class="btn btn-primary" type="reset" value="Reset">
+
+    <!-- Botões com contorno
+     btn-outline-<formato>
+    -->
+
+    <h3>Botões com contorno</h3>
+    <button class="btn btn-outline-warning" type="button">Clique</button>
+
+    <!-- Tamanhos botões
+     opções: btn-lg, bt-sm, btn-block
+    -->
+
+    <h3>Tamanhos dos botões</h3>
+    <button class="btn btn-lg btn-danger" type="button">Grande</button>
+    <button class="btn btn-danger" type="button">Normal</button>
+    <button class="btn btn-sm btn-danger" type="button">Pequeno</button>
+    <br><br>
+    <div class="d-grid gap-2">
+      <button class="btn btn-danger" type="button">Bloco</button>
+    </div>
+
+
+    <!-- Estados dos botões
+     opções: active, disabled
+    -->
+
+    <h3>Estados de botões</h3>
+    <button class="btn btn-success" type="button">Normal</button>
+    <button class="btn btn-success active" type="button">Ativo</button>
+    <button class="btn btn-success disabled" type="button">Inativo</button>
+    <br><br>
+    <p class="d-inline-flex gap-1">
+      <button type="button" class="btn btn-success" data-toggle="button">Alterar</button>
+    </p>
+
+    <h3>Grupos de botões - horizontal</h3>
+    <div class="btn-group">
+      <button class="btn btn-info" type="button">Esquerda</button>
+      <button class="btn btn-info" type="button">Centro</button>
+      <button class="btn btn-info" type="button">Direita</button>
+    </div>
+
+    <br><br>
+
+    <h3>Grupos de botões - vertical</h3>
+    <div class="btn-group-vertical">
+      <button class="btn btn-danger" type="button">Topo</button>
+      <button class="btn btn-danger" type="button">Meio</button>
+      <button class="btn btn-danger" type="button">Fundo</button>
+    </div>
+
+    <h3>Toolbar de botões</h3>
+    <div class="btn-toolbar">
+      <div class="btn-group">
+        <button class="btn btn-danger" type="button">1</button>
+        <button class="btn btn-danger" type="button">2</button>
+        <button class="btn btn-danger" type="button">3</button>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-danger" type="button">4</button>
+        <button class="btn btn-danger" type="button">5</button>
+      </div>
+    </div>
+
+    <h3>Botões dropdown</h3>
+    <div class="dropdown">
+      <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" type="button">
+        Clique
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">Link 1</a>
+        <a href="#" class="dropdown-item">Link 2</a>
+        <a href="#" class="dropdown-item">Link 3</a>
+      </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+
+  </body>
+</html>
