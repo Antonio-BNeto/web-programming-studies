@@ -1,0 +1,216 @@
+
+/*Layout*/
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../img/capa.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Barra de navegação*/
+
+#topo {
+    background: rgba(0,0,0,0.5);
+}
+
+a.topo-link {
+    color: #fff;
+}
+
+a.topo-link:hover{
+    color: rgba(90, 34, 139, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255, .5);
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/*Capa*/
+.capa {
+    text-align: center;
+}
+
+/*Estrutura conteúdos*/
+#servicos{
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2,
+#servicos h3 {
+    color: #7c25f8;
+}
+
+#recursos {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h3 {
+    color: #9bf0e1 ;
+}
+
+#recursos h2{
+    color: #fff;
+}
+
+#servicos img {
+    padding: 10px 0;
+}
+
+.row .rotacionar {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);/* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    padding-left: 80px;
+}
+
+/* Rodapé */
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer ul a:hover{
+    color: #9bf0e1;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+/*Tipografia*/
+
+.capa h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#servicos h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/*Caroulsel*/
+a.carousel-control-prev,
+a.carousel-control-next{
+    text-decoration: none;
+}
+
+/*Customização dos botões*/
+
+.capa .btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+.capa .btn-roxo {
+    background: #7c25f8;
+}
+
+.capa .btn-roxo:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.capa .btn-branco {
+    border: 2px solid #fff;
+}
+
+.capa .btn-branco:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*---------Media queries---------*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media(max-width:575.99px) {
+    .capa h1{
+        font-size: 2em;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.99px) {
+    .capa h1{
+        font-size: 3em;
+    }
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991.99px) {
+    .capa h1{
+        font-size: 4em;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width:1199.99px) {
+    .capa h1{
+        font-size: 5em;
+    }
+}
+
+/*Extra large devices (larger desktops, 1200px and up)*/
+@media(min-width: 1200px) {
+    .capa h1{
+        font-size: 6em;
+    }
+}
