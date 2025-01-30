@@ -1,0 +1,123 @@
+/*Clearing default formatting*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6; 
+}
+
+/*
+------- GENERAL FORMATTING -------
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+.white {
+    color: white;
+}
+
+.data {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+------- MENU FORMATTING -------
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,  a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header a:link, .header a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+.header a:hover {
+    color: #f7b600;
+    background: white;
+    text-decoration: none;
+}
+
+/*
+------- LAYOUT -------
+*/
+
+.header {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo, .menu {
+    padding: 10px;
+}
+
+.main {
+    width:  920px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white; 
+}
+
+.sideMenu {
+    width: 240px;
+    float: right;
+}
+
+.sideContent {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sideContent h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.sidePost {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.baseboard {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}

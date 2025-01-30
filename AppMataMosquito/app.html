@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mata Mosquito</title>
+
+        <!--Css custom-->
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+    <body onresize="ajustaTamanhoJogo()">
+
+        <div class="painel">
+            <div class="vidas">
+                <img id="v1" src="img/coracao_cheio.png" alt="">
+                <img id="v2" src="img/coracao_cheio.png" alt="">
+                <img id="v3" src="img/coracao_cheio.png" alt="">
+            </div>
+
+            <div class="cronometro">
+                Tempo restante: <span id="cronometro"></span>
+            </div>
+        </div>
+        
+        <!--Javascript file-->
+        <script src="Javascript/jogo.js"></script>
+    </body>
+</html>
